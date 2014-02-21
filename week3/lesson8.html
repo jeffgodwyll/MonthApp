@@ -1,0 +1,57 @@
+<!doctype html>
+		<head>		
+	<meta charset="utf-8">
+	<title>JS -selectors</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		</head>
+
+		<body>
+<section>
+jQuery selectors allow you to select and manipulate HTML element(s).
+
+jQuery selectors are used to "find" (or select) HTML elements based on their id, classes, types, attributes, values of attributes and much more. It's based on the existing CSS Selectors, and in addition, it has some own custom selectors.
+
+All selectors in jQuery start with the dollar sign and parentheses: $().
+</section>	
+<hr>
+<section>
+The jQuery element selector selects elements based on the element name.
+
+You can select all paragraph elements on a page like this:
+	<pre>
+		$("p")
+	</pre>	
+<hr>
+<h2>This is a heading</h2>
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<button>Click me</button>
+
+</section>
+
+<hr>
+<section>
+
+<b>The #id Selector</b>
+The jQuery #id selector uses the id attribute of an HTML tag to find the specific element.
+
+An id should be unique within a page, so you should use the #id selector when you want to find a single, unique element.
+
+To find an element with a specific id, write a hash character, followed by the id of the element:
+<pre>$("#test")</pre>
+
+<p id="test">This is another paragraph.</p>
+<button id="btn">Click me</button>
+
+</section>
+
+				
+
+
+
+		</body>
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jscript.js"></script>
+	</html>
