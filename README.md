@@ -14,4 +14,17 @@ Put in your own video and music files in the video and music folders and change 
 
 Week 2
 ------
+[Week 2 presentation](https://github.com/jeffgodwyll/MonthApp/tree/master/week2)
+
+This week was just about UX, mockups and some helpful tips to come up with appealing designs for your app.
+
+Week 3
+------
+[Week 3 code](https://github.com/jeffgodwyll/MonthApp/tree/master/week3)
+
+Introduction to jquery and bootstrap for quick prototyping
+
+Week 4
+------
+
 Coming...
