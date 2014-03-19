@@ -27,4 +27,4 @@ Introduction to jquery and bootstrap for quick prototyping
 Week 4
 ------
 
-Coming...
+[Week 4 walkthrough](https://github.com/jeffgodwyll/MonthApp/blob/master/week4/android_phonegap.md)
