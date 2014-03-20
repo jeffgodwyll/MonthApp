@@ -7,13 +7,13 @@ This guide describes how to set up your development environment for Cordova (pre
 
 #### Prerequisites
 
-* Setting Up ADT Bundle
-* Setting Up Android Tools
-* Setting Up Cordova
+* Setting Up ADT Bundle...
+* Setting Up Android Tools...
+* Setting Up Cordova...
 
 #### Porting The HTML5 App to Android
 
-* Create `www` directory/folder in assets dir and move or copy project contents there
-* Reference `cordova.js` in `index.html` or what you're naming your app's start page
+* Create `www` directory/folder in assets dir and move or copy project contents there.
+* Reference `cordova.js` in `index.html` or what you're naming your app's start page.
 * Configure the project to use Cordova/Phonegap Libraries by placing `cordova.jar` in libs directory/folder.
-* Configure the project's metadata in AndroidManifest.xml
+* Configure the project's metadata in AndroidManifest.xml.
