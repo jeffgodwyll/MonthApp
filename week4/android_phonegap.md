@@ -17,6 +17,8 @@ This guide describes how to set up your development environment for Cordova (pre
 
 * Configure the project to use Cordova/Phonegap Libraries by placing `cordova.jar` in libs directory/folder.
 
+![Assets and Libs][assets-libs]
+
 * Reference `cordova.js` in `index.html` or what you're naming your app's start page.
 
 
@@ -25,4 +27,4 @@ This guide describes how to set up your development environment for Cordova (pre
 
 [1]: http://www.adobe.com/devnet/html5/articles/getting-started-with-phonegap-in-eclipse-for-android.html
 
-[]
+[assets-lib]: ..[imgs]android_phonegap/asset-libs.png "Assets and Libs"
