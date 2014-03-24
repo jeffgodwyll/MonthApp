@@ -31,7 +31,7 @@ This guide describes how to set up your development environment for Cordova (pre
 
 [1]: http://www.adobe.com/devnet/html5/articles/getting-started-with-phonegap-in-eclipse-for-android.html
 
-[assets-lib]: https://raw.githubusercontent.com/jeffgodwyll/MonthApp/master/week4/%5Bimgs%5Dandroid_phonegap/assest-libs.PNG
+[assets-libs]: https://raw.githubusercontent.com/jeffgodwyll/MonthApp/master/week4/%5Bimgs%5Dandroid_phonegap/assest-libs.PNG
 [cordova-js]: https://raw.githubusercontent.com/jeffgodwyll/MonthApp/master/week4/%5Bimgs%5Dandroid_phonegap/cordova-js.png
 [manifest-xml]: https://raw.githubusercontent.com/jeffgodwyll/MonthApp/master/week4/%5Bimgs%5Dandroid_phonegap/manifest-xml.PNG
 [mainactivity-java]: https://raw.githubusercontent.com/jeffgodwyll/MonthApp/master/week4/%5Bimgs%5Dandroid_phonegap/mainactivity-java.PNG
