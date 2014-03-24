@@ -13,19 +13,20 @@ This guide describes how to set up your development environment for Cordova (pre
 
 #### Porting The HTML5 App to Android
 
-* Create `www` directory/folder in assets dir and move or copy project contents there.
-
-* Configure the project to use Cordova/Phonegap Libraries by placing `cordova.jar` in libs directory/folder.
+* Create `www` directory/folder in assets dir and move or copy project contents there and configure the project to use Cordova/Phonegap Libraries by placing `cordova.jar` in libs directory/folder:
 
 ![Assets and Libs][assets-libs]
 
-* Reference `cordova.js` in `index.html` or what you're naming your app's start page.
+* Reference `cordova.js` in `index.html` or what you're naming your app's start page:
+
 ![Cordova.js][cordova-js]
 
-*Modify `MainActivity.java` file to look like this:
+* Modify `MainActivity.java` file to look like this:
+
 ![MainActivity.java][mainactivity-java]
 
-* Configure the project's metadata in AndroidManifest.xml.
+* Configure the project's metadata in AndroidManifest.xml:
+
 ![AndroidManifest.xml][manifest-xml]
 
 
