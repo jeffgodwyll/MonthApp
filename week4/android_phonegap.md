@@ -1,7 +1,7 @@
 Getting Started with Android
 ============================
 
-[Getting Started With PhoneGap Android Development](http://www.adobe.com/devnet/html5/articles/getting-started-with-phonegap-in-eclipse-for-android.html)
+[Getting Started With PhoneGap Android Development][1]
 
 This guide describes how to set up your development environment for Cordova (previously android) and run a sample application or the app you've been developing during the monthapp module.
 
@@ -20,3 +20,6 @@ This guide describes how to set up your development environment for Cordova (pre
 * Configure the project to use Cordova/Phonegap Libraries by placing `cordova.jar` in libs directory/folder.
 
 * Configure the project's metadata in AndroidManifest.xml.
+
+
+[1]: http://www.adobe.com/devnet/html5/articles/getting-started-with-phonegap-in-eclipse-for-android.html
