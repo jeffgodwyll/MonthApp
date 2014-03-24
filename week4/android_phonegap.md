@@ -20,11 +20,18 @@ This guide describes how to set up your development environment for Cordova (pre
 ![Assets and Libs][assets-libs]
 
 * Reference `cordova.js` in `index.html` or what you're naming your app's start page.
+![Cordova.js][cordova-js]
 
+*Modify `MainActivity.java` file to look like this:
+![MainActivity.java][mainactivity-java]
 
 * Configure the project's metadata in AndroidManifest.xml.
+![AndroidManifest.xml][manifest-xml]
 
 
 [1]: http://www.adobe.com/devnet/html5/articles/getting-started-with-phonegap-in-eclipse-for-android.html
 
-[assets-lib]: ..[imgs]android_phonegap/asset-libs.png "Assets and Libs"
+[assets-lib]: https://github.com/jeffgodwyll/MonthApp/blob/master/week4/%5Bimgs%5Dandroid_phonegap/assest-libs.PNG "Assets and Libs"
+[cordova-js]: https://github.com/jeffgodwyll/MonthApp/blob/master/week4/%5Bimgs%5Dandroid_phonegap/cordova-js.png "Cordova.js"
+[manifest-xml]: https://github.com/jeffgodwyll/MonthApp/blob/master/week4/%5Bimgs%5Dandroid_phonegap/manifest-xml.png "AndroidManifest.xml"
+[mainactivity-java]: https://github.com/jeffgodwyll/MonthApp/blob/master/week4/%5Bimgs%5Dandroid_phonegap/mainactivity-java.png "MainActivity.java"
