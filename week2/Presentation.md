@@ -61,7 +61,7 @@ Information Architecture
 –	Time(“hot right now, archived, later, new”-email)
 –	People(who the information is about,facebook)
 Wire-frames
-●	its an important step in any screen design process. It primarily allows you to define the information hierarchy of your design, making it easier for you to plan the layout according to how you want your user to process the information.
+●	Its an important step in any screen design process. It primarily allows you to define the information hierarchy of your design, making it easier for you to plan the layout according to how you want your user to process the information.
  
 The end
 ●	Resource
