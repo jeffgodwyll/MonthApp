@@ -5,6 +5,13 @@ MonthApp
 
 Lessons from the MonthApp module (code that goes with the lectures).
 
+Intro
+======
+
+This begins the module. Puts in place necessary house rules. Include setup files and tools and their varying alternatives.
+
+This is an introduction to the whole concept of the MonthApp module.
+
 Week 1
 ------
 
