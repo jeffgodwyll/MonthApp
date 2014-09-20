@@ -16,7 +16,7 @@ This is an introduction to the whole concept of the MonthApp module.
 Week 1 - Structure & Styling
 =============================
 
-[Week 1 code](https://github.com/jeffgodwyll/MonthApp/tree/master/week1)
+[Week 1 code](week1-Structure & Styling)
 
 The lessons appear in the order that they were taught.
 
@@ -27,7 +27,7 @@ Put in your own video and music files in the video and music folders and change 
 Week 2 - Frameworks & UX
 =========================
 
-[Week 2 presentation](https://github.com/jeffgodwyll/MonthApp/tree/master/week2)
+[Week 2 presentation](week2-Framework & UX)
 
 This week was just about UX, mockups and some helpful tips to come up with appealing designs for your app.
 
@@ -36,7 +36,7 @@ This week was just about UX, mockups and some helpful tips to come up with appea
 Week 3 - Prototyping
 =====================
 
-[Week 3 code](https://github.com/jeffgodwyll/MonthApp/tree/master/week3)
+[Week 3 code](week3-Prototyping)
 
 Introduction to jquery and bootstrap for quick prototyping
 
@@ -45,4 +45,4 @@ Introduction to jquery and bootstrap for quick prototyping
 Week 4 -Packaging
 ==================
 
-[Week 4 walkthrough](https://github.com/jeffgodwyll/MonthApp/blob/master/week4/android_phonegap.md)
+[Week 4 walkthrough](week4-Packaging)
