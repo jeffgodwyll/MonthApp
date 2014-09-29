@@ -1,7 +1,7 @@
 MonthApp
 ========
 
-[MonthApp](http://sites.google.com/site/monthappgtuc)
+[MonthApp](http://jeffgodwyll.github.io/MonthApp/)
 
 Lessons from the MonthApp module (code that goes with the lectures).
 
