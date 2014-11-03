@@ -44,6 +44,31 @@ Media type names are case-insensitive. <br><br>
 
 Media types are mutually exclusive in the sense that a user agent can only support one media type when rendering a document. However, user agents may use different media types on different canvases. For example, a document may (simultaneously) be shown in 'screen' mode on one canvas and 'print' mode on another canvas.
 
+</div><hr>
+
+<div class="example">
+	
+<em> &ltlink rel="stylesheet" media="print" href="printer.css"&gt  </em>
+<br><br>
+This would target print devices and provide specific styling for the page content when it is printed. CSS3 takes the idea of media types one step further and enhances their functionality with media queries. Media queries extend the usefulness of media types by allowing more precise labeling of style sheets. This enables the content's presentation to be customized to a specific range of output devices without having to change the content itself. Sounds perfect for an existing layout that needs modifying!
+
+You can use media queries in the media attribute of your external stylesheets to target screen width, device width, orientation, etc
+	
+</div>
+
+<div class="targetmdevices">
+	<b>Targetting Screen Sizes</b>
+
+&ltlink rel="stylesheet"
+  media="handheld, only screen and (max-device-width: 320px)" href="phone.css"&gt <br>
+
+  In the following example, phone.css would apply to devices that the browser considers "handheld" or devices with screens <= 320px wide.Prefixing a media queries with the "only" keyword will cause non CSS3-compliant browsers to ignore the rule. <br><br>
+
+&ltlink rel="stylesheet"
+  media="only screen and (min-width: 641px) and (max-width: 800px)" href="ipad.css"&gt <br>
+  The following would target screen sizes between 641px and 800px: <br><br>
+
+
 
 
 </div>
