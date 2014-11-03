@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Using viewport</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+
+<p>This tutorial has been culled from a plethora of sources.</p>
+<hr>
+<div class="mqueries">
+<b>Media Queries</b>
+One of the most important features of style sheets is that they specify how a document is to be presented on different media: on the screen, on paper, with a speech synthesizer, with a braille device, etc.
+
+Certain CSS properties are only designed for certain media (e.g., the 'page-break-before' property only applies to paged media). On occasion, however, style sheets for different media types may share a property, but require different values for that property. For example, the 'font-size' property is useful both for screen and print media. The two media types are different enough to require different values for the common property; a document will typically need a larger font on a computer screen than on paper. Therefore, it is necessary to express that a style sheet, or a section of a style sheet, applies to certain media types.
+</div>
+<div class="mediatypes">
+	<b>Recognised media types</b><br>
+	The names chosen for CSS media types reflect target devices for which the relevant properties make sense. In the following list of CSS media types the names of media types are normative, but the descriptions are informative. Likewise, the "Media" field in the description of each property is informative. <br> <hr>
+
+<b>all</b>-
+Suitable for all devices. <br>
+<b>braille</b>-
+Intended for braille tactile feedback devices. <br>
+<b>embossed</b>-
+Intended for paged braille printers. <br>
+<b>handheld</b>-
+Intended for handheld devices (typically small screen, limited bandwidth). <br>
+<b>print</b>-
+Intended for paged material and for documents viewed on screen in print preview mode. Please consult the section on paged media for information about formatting issues that are specific to paged media. <br>
+<b>projection</b>-
+Intended for projected presentations, for example projectors. Please consult the section on paged media for information about formatting issues that are specific to paged media. <br>
+<b>screen</b>-
+Intended primarily for color computer screens. <br>
+<b>speech</b>-
+Intended for speech synthesizers. Note: CSS2 had a similar media type called 'aural' for this purpose. See the appendix on aural style sheets for details. <br>
+<b>tty</b>-
+Intended for media using a fixed-pitch character grid (such as teletypes, terminals, or portable devices with limited display capabilities). Authors should not use pixel units with the "tty" media type. <br>
+<b>tv</b>-
+Intended for television-type devices (low resolution, color, limited-scrollability screens, sound available).
+Media type names are case-insensitive. <br><br>
+
+Media types are mutually exclusive in the sense that a user agent can only support one media type when rendering a document. However, user agents may use different media types on different canvases. For example, a document may (simultaneously) be shown in 'screen' mode on one canvas and 'print' mode on another canvas.
+
+
+
+</div>
+	
+
+</body>
+</html>
