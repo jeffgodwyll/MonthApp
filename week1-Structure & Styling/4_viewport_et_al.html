@@ -63,15 +63,43 @@ You can use media queries in the media attribute of your external stylesheets to
   media="handheld, only screen and (max-device-width: 320px)" href="phone.css"&gt <br>
 
   In the following example, phone.css would apply to devices that the browser considers "handheld" or devices with screens <= 320px wide.Prefixing a media queries with the "only" keyword will cause non CSS3-compliant browsers to ignore the rule. <br><br>
-
+<em>
 &ltlink rel="stylesheet"
-  media="only screen and (min-width: 641px) and (max-width: 800px)" href="ipad.css"&gt <br>
+  media="only screen and (min-width: 641px) and (max-width: 800px)" href="ipad.css"&gt <br> </em>
   The following would target screen sizes between 641px and 800px: <br><br>
 
-
-
+Media queries can also appear within inline &ltstyle&gt tags. The following targets all media types when in a portrait orientation: <br>
+<em>
+&ltstyle&gt
+  @media only all and (orientation: portrait) { ... }
+&lt/style&gt</em>
 
 </div>
+
+<div class="viewportuses">
+		<br>
+	
+	<b>Mobile Meta Tags</b> <br>
+		<p>Mobile WebKit supports a few goodies that give users a better browsing experience on certain devices.</p>
+	<br>
+	<b>Viewport Settings</b>
+		<p>The first meta setting (and one that you'll use most often) is the viewport property. Setting a viewport tells the browser how content should fit on the device's screen and informs the browser that the site is optimized for mobile. For example:</p>
+	<em>&ltmeta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"&gt </em> <br><br>
+	tells the browser to set the viewport to the width of the device with an initial scale of 1. This example also allows zooming, something that may be desirable for a web site but not a web app. We could prevent zooming with user-scalable=no or cap the scaling to a certain level:
+	<br> <em>
+	&ltmeta name=viewport
+  content="width=device-width, initial-scale=1.0, minimum-scale=0.5 maximum-scale=1.0"&gt </em> <br><br>
+ <b> Note:</b> width can also take a pixel value. Setting width=320 would achieve the same result as width=device-width on the iPhone and a few other smart phones. Keep in mind not all phones have this exact width, so it's best to stick with device-width and let the browser figure out the rest. Android extends the viewport meta tag by allowing developers to to specify which screen resolution the site has been developed for:
+<br><br><em>&ltmeta name="viewport" content="target-densitydpi=device-dpi"&gt</em>
+
+<br><br>
+	<p>Possible values for target-densitydpi are device-dpi, high-dpi, medium-dpi, low-dpi.
+
+If you want to modify your web page for different screen densities, use the -webkit-device-pixel-ratio CSS media query and/or the window.devicePixelRatio property in JavaScript, then set the target-densitydpi meta property to device-dpi. This stops Android from performing scaling in your web page and allows you to make the necessary adjustments for each density, via CSS and JavaScript.</p>
+
+</div>
+
+<p><em>Google is your friend. You need more, you read more.</em></p>
 	
 
 </body>
