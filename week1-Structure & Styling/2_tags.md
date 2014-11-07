@@ -21,9 +21,7 @@ A few elements do not have content between the tags. They are called <em>empty e
 heads are the largest and boldest, <code>&lt;h2&gt;</code> is smaller, and so on) tags must not be used to define the look of content (style.) Instead, tags define the semantic structure of a page, outlining the relative importance of each chunk of information being presented: <code>&lt;h1&gt;</code> elements are the most important, <code>&lt;h2&gt;</code> elements are secondarily important, and so on. This is crucial for accessibility – allowing a screen reader to assist a blind person’s understanding of the information.</p>
 
 
-<hr>
-
-<h3>Common HTML elements:</h3>
+##Common HTML elements
 <p>Most HTML elements are either <strong>block level</strong> or <strong>inline</strong>. Block level elements usually start and end with a new line in a browser. Inline elements are displayed without starting a new line.</p>
 
 
@@ -58,12 +56,6 @@ Some Handy HTML Tags<br>
 </div>
 
 
-<h4>There are many more tags out there. Google is your Friend</h4>
+####There are many more tags out there. Google is your Friend
 <h5>Resource </h5><a href="http://www.w3resource.com/html5">Learn Some more</a>
 
-
-
-
-
-</body>
-</html>
