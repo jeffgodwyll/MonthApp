@@ -1,7 +1,6 @@
 MonthApp
 ========
 
-[MonthApp](http://sites.google.com/site/monthappgtuc)
 
 Lessons from the MonthApp module (code that goes with the lectures).
 
