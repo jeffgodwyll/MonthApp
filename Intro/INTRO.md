@@ -31,7 +31,7 @@ If you have another way/tool that will make it easier for you, go ahead and use 
 
 
 Editor(s): 
-<li> <a href="http://www.sublimetext.com/">Sublime Text</a> </li>
+<li><a href="http://www.sublimetext.com/">Sublime Text</a> </li><br>
 <li><a href="http://brackets.io/?lang=en">Bracket</a><br></li>
 
 WebServer: 
