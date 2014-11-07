@@ -59,16 +59,26 @@ Declarations consist of a property and a value. The property is the style attrib
 	<li>External Style sheet</li>
 </ul>
 
-###Example
-<h1 style="color:red;margin-left:30px;">This is a RED heading because of an inline css</h1>
+###Examples
 
-<h1>All "h4" headings will be blue using this internal css </h1></li>
+``<h1 style="color:red;margin-left:30px;">``
+
+The above will produce a RED heading because of an inline css.
 
 ``<style>h4{color: blue}</style>``
 
- All lists will be underlined because of an external style sheet
- 
+All "h4" headings will be blue using this internal css 
+
+
 ``<link rel="stylesheet" href="CSS/3_external_style_sheet.css">``
+
+All lists will be underlined because of an external style sheet using the example above. This style sheet will contain code like:
+
+	li{
+	text-decoration:underline;
+	}
+ 
+to make the underlining happen.
 
 
 ###Note: 
