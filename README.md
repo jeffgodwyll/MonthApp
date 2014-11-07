@@ -1,10 +1,7 @@
 MonthApp
 ========
 
-<<<<<<< HEAD
 [MonthApp](http://jeffgodwyll.github.io/MonthApp/)
-=======
->>>>>>> 15d6ceeb50d6db60f5f6dd751c23e8a142e78535
 
 Lessons from the MonthApp module (code that goes with the lectures).
 
