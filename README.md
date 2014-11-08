@@ -15,33 +15,33 @@ This is an introduction to the whole concept of the MonthApp module.
 Week 1 - Structure & Styling
 =============================
 
-[Week 1 code](https://github.com/jeffgodwyll/MonthApp/tree/master/week1)
-
-The lessons appear in the order that they were taught.
-
-Put in your own video and music files in the video and music folders and change to reference them accordingly in lesson6.
+Week one covers, basic HTML and CSS. 
+This includes a brief overview on tags, elements -structural and semantic. Inline/Internal/External methods of including CSS and JS are discussed.
+Media Queries are highligted briefly.
+The final tut in this module includes a standard HTML5 page.
+ 
 
 
 
 Week 2 - Frameworks & UX
 =========================
 
-[Week 2 presentation](https://github.com/jeffgodwyll/MonthApp/tree/master/week2)
 
-This week was just about UX, mockups and some helpful tips to come up with appealing designs for your app.
+This week is just about User Experience (UX), mockups and some helpful tips to come up with appealing designs for your app. In this module we would note the various frameworks out there, discuss them briefly and leave the choice to you.
 
 
 
 Week 3 - Prototyping
 =====================
 
-[Week 3 code](https://github.com/jeffgodwyll/MonthApp/tree/master/week3)
+In this week, we will concentrate on bringing to life our app ideas with the knowledge gained in the first two modules.
+Using any of the frameworks from the previous week, we will develop working versions albeit not fully functions apps.
 
-Introduction to jquery and bootstrap for quick prototyping
 
 
 
 Week 4 -Packaging
 ==================
 
-[Week 4 walkthrough](https://github.com/jeffgodwyll/MonthApp/blob/master/week4/android_phonegap.md)
+In this module, the last in our month long program, we will be finalizing our applications, redying them for the playstore and with just a little more effort get our apps to the other major OS ecosystems; iOS,WP8,BB,FirefoxOS.
+Phongap Build (Free tier) and or cordova CLI will be used.
