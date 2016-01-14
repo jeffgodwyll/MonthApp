@@ -5,6 +5,8 @@ MonthApp
 
 Lessons from the MonthApp module (code that goes with the lectures).
 
+The original completed series can be found in the [v1.0.0 branch](https://github.com/jeffgodwyll/MonthApp/tree/v1.0.0)
+
 Intro
 ======
 
